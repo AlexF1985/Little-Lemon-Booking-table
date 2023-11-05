@@ -3,18 +3,18 @@ import logo from "../images/logo.png"
 
 const Nav = () => {
     return(
-        <nav>
+       <nav>
              <img src={logo} alt="Little Lemon Logo" ></img>
-        <ul>
-            <li><a href="/home">Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Menu</a></li>
-            <li><a>Reservations</a></li>
-            <li><a>Order Online</a></li>
-            <li><a>Login</a></li>
-
-        </ul>
-        </nav>
+             <ul>
+             <li><a href="/home">Home</a></li>
+             <li><a href="/home">About</a></li>
+             <li><a href="/home">Menu</a></li>
+             <li><a href="/BookingForm">Reservations</a></li>
+             <li><a href="/home">Order Online</a></li>
+             <li><a href="/home">Login</a></li>
+ 
+         </ul>
+         </nav>
     )
 }
 export default Nav;
