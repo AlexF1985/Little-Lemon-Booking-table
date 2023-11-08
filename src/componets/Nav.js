@@ -7,15 +7,14 @@ const Nav = () => {
              <img src={logo} alt="Little Lemon Logo" ></img>
              <ul>
              <li><a href="/home">Home</a></li>
-             <li><a href="/home">About</a></li>
-             <li><a href="/home">Menu</a></li>
-             <li><a href="/BookingForm">Reservations</a></li>
-             <li><a href="/home">Order Online</a></li>
-             <li><a href="/home">Login</a></li>
+             <li><a href="/abaut">Abaut</a></li>
+             <li><a href="/Booking">Reservations</a></li>
+             <li><a href="/orer online">Order Online</a></li>
+             <li><a href="/login">Login</a></li>
  
          </ul>
          </nav>
-    )
+    )  
 }
 export default Nav;
 

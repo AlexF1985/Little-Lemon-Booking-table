@@ -41,6 +41,7 @@
 
 nav img {
   width: 200px;
+ display: inline-block;
  
 }
 nav ul li {
@@ -111,4 +112,41 @@ header section {
     display:grid;
     justify-items: center;
   }
+
+  footer section {
+
+    justify-items: center;
+    width:80%;
+      margin-left: 10%;
+    gap: 20px;
+    }
   
+  
+  footer {
+    padding: 20px;
+  }
+  
+  footer img {
+    height:300px;
+  }
+  form {
+    display: grid;
+    max-width: 200px;
+    gap: 20px;
+  }
+  
+  @media (max-width: 700px) {
+    header section, footer section {
+      display: grid;
+      grid-auto-flow: row;
+    }
+  }
+  
+  @media (min-width: 701px) {
+  footer section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display:grid;
+  }
+  }
+
+

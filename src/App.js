@@ -1,9 +1,13 @@
 import React from "react";
 import Nav from "./componets/Nav"
+
 import Header from "./componets/Header";
+import Main from "./componets/Main";
 import './App.css';
 import Footer from "./componets/Footer";
-//import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import About from "./componets/Pages/About";
+
 
 function App() {
   return (
@@ -11,7 +15,10 @@ function App() {
       <React.Fragment>
       <Header />
         <Nav />
+        <Main />
         <Footer />
+        
+        
       </React.Fragment>
     </div>
   );
