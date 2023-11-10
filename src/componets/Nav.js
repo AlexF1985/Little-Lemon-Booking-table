@@ -8,6 +8,7 @@ const Nav = () => {
              <ul>
              <li><a href="/home">Home</a></li>
              <li><a href="/abaut">Abaut</a></li>
+             <li><a href="/Menu">Menu</a></li>
              <li><a href="/Booking">Reservations</a></li>
              <li><a href="/orer online">Order Online</a></li>
              <li><a href="/login">Login</a></li>

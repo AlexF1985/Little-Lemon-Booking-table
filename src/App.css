@@ -61,6 +61,10 @@ nav {
   background-color: white;
 }
 
+a:hover {
+  background-color: yellow;
+}
+
 header {
   padding-top: 150px;
   background-color: #495e57;
